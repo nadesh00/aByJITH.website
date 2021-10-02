@@ -1,0 +1,120 @@
+
+/* stylelint-disable selector-list-comma-newline-after */
+
+
+body{
+    background-color:black;
+    padding-top: 70px;
+}
+.blog-header {
+    line-height: 1;
+    border-bottom: 1px solid #e5e5e5;
+    
+  }
+  h1
+  {
+    font-family: 'Yatra One', cursive;
+  }
+  h4
+  {
+  font-family: 'Yatra One', cursive;    
+  }
+  
+  .blog-header-logo
+  {
+    font-family: 'Yatra One', cursive;
+   color: #ffffff;
+    font-size: 3.25rem;
+  }
+  .blog-header-logo2 {
+     font-family: 'Yatra One', cursive;
+    font-size: 4.25rem;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .blog-header-logo:hover {
+    text-decoration: none;
+  }
+
+.jumbotron{
+	color: #2c3e50;
+	background: #ecf0f1;
+}
+.navbar-inverse{
+	background:#2c3e50; 
+}
+  
+.navbar
+{
+  text-align: center;
+}
+
+/*carousel*/
+
+
+.carousel-item
+{
+  align-items: center;
+}
+
+
+
+
+/*css card*/ 
+.container
+{
+  width: 1000px;
+/*  display:grid;
+*/  padding: 0;
+}
+.container .card
+{
+  position: relative;
+  width: 1000px;
+  height: 400px;
+  background: #fff;
+}
+.container .card .part
+{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .card .part.two
+{
+  background:#111;
+  transition: 0.5s;
+  font-family: 'Dancing Script', cursive;
+  background: linear-gradient(45deg,#ccff00,#09afff);
+}
+.container .card:hover .part.two
+{
+  height: 60px;
+}
+.container .card .part.two p
+{
+  font-size: 100px;
+}
+.container .card:hover .part.two p
+{
+  font-size: 30px;
+}
+
+
+ /*Footer*/
+  .blog-footer {
+    padding: 2.5rem 0;
+    color: #323232;
+    text-align: center;
+/*    background-color: #f9f9f9;
+*/    border-top: .05rem solid #e5e5e5;
+padding-bottom: 0;
+  }
+  
